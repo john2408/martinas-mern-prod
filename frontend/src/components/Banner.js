@@ -8,7 +8,7 @@ export const Banner = () => {
   return (
     <Carousel autoPlay dynamicHeight={true} width="100%" showThumbs={false} infiniteLoop= {true} showStatus= {false}>
         <div>
-            <img alt="" src="images/1.jpg" className='banner__img' />
+            <img alt="" src="images/1.jpg" className='banner__img' /> 
         </div>
         <div>
             <img alt="" src="images/2.jpg" className='banner__img'/>

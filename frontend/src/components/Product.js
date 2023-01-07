@@ -11,8 +11,7 @@ const Product = ({imagePath, title, price, description, productId} ) => {
               alt={title}/>
         </Link>
         <div className="product__info">
-            <p className="info__name">{title}</p>
-            <p className="info__description"> {description.substring(0,100)}...</p>
+            <p className="info__name">{title.toUpperCase()}</p>
             <p className= "info__price">$ {price.toLocaleString('de') }</p>
         </div>
 

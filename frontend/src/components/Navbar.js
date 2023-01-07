@@ -30,11 +30,6 @@ export const Navbar = ({click}) => {
                 </span>
                 </Link>
             </li>
-            <li>
-                <Link to="/">
-                Tienda
-                </Link>
-            </li>
 
         </ul>
 

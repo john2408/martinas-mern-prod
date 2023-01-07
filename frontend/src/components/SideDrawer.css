@@ -1,7 +1,7 @@
 .sidedrawer{
     width: 70%;
     height: 100vh;
-    background-color: white;
+    background-color: #FD8FA4;
     position: fixed;
     top: 0;
     left: 0;
@@ -38,14 +38,14 @@
     flex: 1;
     padding: 1rem;
     text-decoration:  none;
-    color: black;
+    color: white;
     font-size: 1.6rem;
 }
 
 
 .sidedrawer__links > li > a:hover{
-    background: #f473adef;
-    color: white;
+    background: #FFB7C5;
+    color: #9B283E;
 }
 
 .sidedrawer__links > li > a > span {
@@ -56,7 +56,7 @@
 }
 
 .sidedrawer__cartbadge{
-    color: white;
+    color: #f473adef;
     display: flex;
     align-items: center;
     justify-content: center;
@@ -64,7 +64,7 @@
     width: 30px;
     height: 30px;
     border-radius: 50%;
-    background-color: black;
+    background-color: white;
     font-size: 1rem;
     margin-left: 8px;
 
@@ -72,8 +72,8 @@
 }
 
 .sidedrawer__links > li > a:hover .sidedrawer__cartbadge{
-    background: white;
-    color: #f473adef;
+    background: #9B283E;
+    color: white;
 }
 
 @media (min-width: 960px) {

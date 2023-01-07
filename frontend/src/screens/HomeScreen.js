@@ -24,7 +24,7 @@ const HomeScreen = () => {
 
   return (<div className='homescreen'>
   <Banner/>
-  <h2 className = "homescreen__title">Desayunos Sorpresa</h2>
+  <h2 className = "homescreen__title">DESAYUNOS SORPRESA</h2>
   
   
   <div className = "homescreen__products">
